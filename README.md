@@ -8,11 +8,17 @@ Short answer: The formation energy. <br>
 
 This [kaggle competition](https://www.kaggle.com/c/nomad2018-predict-transparent-conductors/) predicts the band gap and the formation energy of 600 semiconductors, given structural properties of 2400 semiconductors as the training set.
 
+Key Results/Highlights:
+1. Predicted bandgap energy is used to predict the formation energy, as they are highly correlated. <br>
+2. CV score on formation energy prediction is increased by a few percentages when switched over to gradient boosting regression, due to the high bias (train score > CV score) training by random forest regression.
+3. Percentage of In and Al are important to determine the bandgap, while percentage of Ga is important to the formation energy.
+
 Results: <br>
-Accuracy = 94.2 % <br>
+Accuracy = 95.0 % <br>
 <img src=bandgap.png> <br>
-Accuracy = 85.0 % <br>
+Accuracy = 89.4 % <br>
 <img src=formation.png> <br>
 
-For exploratory data analysis, head over to [eda.ipynb](eda.ipynb). <br>
-For machine learning, head over to [ml.ipynb](ml.ipynb) (since this competition is still ongoing, I'll post my code once it is over). <br>
+For exploratory data analysis, head over to [exploratory_data_analysis.ipynb](exploratory_data_analysis.ipynb). <br>
+For feature selection based on correlation, head over to [feature_correlation.ipynb](feature_correlation.ipynb). <br>
+For machine learning application, head over to [machine_learning.ipynb](machine_learning.ipynb). <br>
