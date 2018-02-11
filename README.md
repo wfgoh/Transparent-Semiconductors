@@ -23,4 +23,5 @@ For exploratory data analysis, head over to [exploratory_data_analysis.ipynb](ex
 For feature selection based on correlation, head over to [feature_correlation.ipynb](feature_correlation.ipynb). <br>
 For machine learning application, head over to [machine_learning.ipynb](machine_learning.ipynb). <br>
 
-Python source codes are in [source folder](source). Inside the folder, simply run "python machine_learning.py". For features generation, run "python get_feature.py" will generate train5.csv and test5.csv, both are already generated in the folder.
+Python source codes are in the [source folder](source). Inside the folder, simply run "python machine_learning.py". <br>
+For features generation, run "python get_feature.py" will generate train5.csv and test5.csv. Both have been generated in the folder.
