@@ -14,9 +14,9 @@ Key Results/Highlights:
 3. Percentage of In and Al are important to determine the bandgap, while percentage of Ga is important to the formation energy.
 
 Band gap and formation energy prediction on randomly selected test samples. <br>
-Bandgap prediction accuracy = 95.0 % <br>
+(Bandgap) Accuracy = 95.0 % <br>
 <img src=bandgap.png> <br>
-Formation prediction accuracy = 89.4 % <br>
+(Formation) Accuracy = 89.4 % <br>
 <img src=formation.png> <br>
 
 For exploratory data analysis, head over to [exploratory_data_analysis.ipynb](exploratory_data_analysis.ipynb). <br>
