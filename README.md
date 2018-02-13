@@ -13,10 +13,10 @@ Key Results/Highlights:
 2. CV score on formation energy prediction is increased by a few percentages when switched over to gradient boosting regression, due to the high bias (train score > CV score) proned by random forest regression.
 3. Percentage of In and Al are important to determine the bandgap, while percentage of Ga is important to the formation energy.
 
-Results: <br>
-Accuracy = 95.0 % <br>
+Band gap and formation energy prediction on randomly selected test samples. <br>
+Bandgap prediction accuracy = 95.0 % <br>
 <img src=bandgap.png> <br>
-Accuracy = 89.4 % <br>
+Formation prediction accuracy = 89.4 % <br>
 <img src=formation.png> <br>
 
 For exploratory data analysis, head over to [exploratory_data_analysis.ipynb](exploratory_data_analysis.ipynb). <br>
