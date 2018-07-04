@@ -10,7 +10,7 @@ This [kaggle competition](https://www.kaggle.com/c/nomad2018-predict-transparent
 
 Key Results/Highlights:
 1. Predicted bandgap energy is used as a feature to predict the formation energy, as they are highly correlated. <br>
-2. CV score on formation energy prediction is increased by a few percentages when switched over to gradient boosting regression, due to the high bias (train score > CV score) proned by random forest regression.
+2. CV score on formation energy prediction is increased by a few percentages when switched over to gradient boosting regression, due to the high bias proned by random forest regression.
 3. Percentage of In and Al are important to determine the bandgap, while percentage of Ga is important to the formation energy.
 
 Band gap and formation energy prediction on randomly selected test samples. <br>
