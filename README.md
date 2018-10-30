@@ -6,7 +6,7 @@ Short answer: The band gap. <br>
 Then what determine the stability of the transparent semiconductors? <br>
 Short answer: The formation energy. <br>
 
-This [kaggle competition](https://www.kaggle.com/c/nomad2018-predict-transparent-conductors/) predicts the band gap and the formation energy of 600 semiconductors, given structural properties of 2400 semiconductors as the training set.
+This project <!--[kaggle competition](https://www.kaggle.com/c/nomad2018-predict-transparent-conductors/)--> predicts the band gap and the formation energy of 600 semiconductors, given structural properties of 2400 semiconductors as the training set.
 
 Key Results/Highlights:
 1. Predicted bandgap energy is used as a feature to predict the formation energy, as they are highly correlated. <br>
